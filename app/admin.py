@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import UserProfile, Customer, Currency, Commodity, Box, Bank, Ledger
 
-# Register your models here.
+admin.site.register([UserProfile, Customer, Currency, Commodity, Box, Bank, Ledger])
